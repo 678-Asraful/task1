@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700;800&display=swap');
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.header-des {
+    text-align: right;
+    padding: 216px 230px;
+    background-image: url("../images/banner/banner1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-title {
+    color: #151414;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.header-descrioption {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+    margin-top: 24px;
+}
+
+.contact {
+    border: none;
+    width: 160px;
+    background-color: #F15B22;
+    height: 64px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.failures-title {
+    margin-top: 370px;
+    margin-bottom: 24px;
+    font-size: 40px;
+    color: #151414;
+
+}
+
+.failures-description {
+
+    font-size: 16px;
+    color: #444343;
+}
+
+.about .myfailures ul li {
+    
+    list-style: none;
+    font-size: 16px;
+    color: #444343;
+    font-weight: 400;
+}
+
+.myfailures ul li::before {
+    content: '✓';
+    color: #16D887;
+}
+
+.about {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.failes-img {
+    margin-top: 140px;
+    margin-left: 230px;
+    margin-bottom: 185px;
+}
+
+.plans {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 230px 230px 140px;
+}
+
+.plans-title {
+    text-align: center;
+    color: #151414;
+    font-size: 40px;
+}
+
+.plans-name {
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.plan-focus {
+    color: #737272;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+
+}
+
+/* goal related styles */
+.goal {
+    background-image: url('../images/gradient2.png'), url('../images/watch.png');
+    background-position: center;
+    margin-bottom: 130px;
+    margin-left: 350px;
+    margin-right: 230px;
+    position: absolute;
+    width: 1140px;
+    height: 300px;
+}
+
+
+
+.goal-title {
+
+    margin-left: 80px;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+}
+
+.goal-button {
+    align-items: center;
+    margin-left: 80px;
+    border: none;
+    width: 160px;
+    height: 64px;
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    background: white;
+    border-radius: 5px;
+}
+
+/* footer related styles */
+.footer-contact {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 800px;
+    background: #151414;
+
+    
+    height: 577px;
+}
+.collumn-a{
+    margin-left: 230px;
+}
+
+.collumn-a-title {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.collumn-a-about {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.collumn-a-email,
+.collumn-a-phone {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.collumn-b {
+    display: block;
+    margin-right: 230px;
+    margin-top: 30px;
+    
+}
+
+
+.collumn-b-title {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.subscribe-input {
+    width: 325px;
+    height: 64px;
+    border: 1px solid white;
+    border-radius: 8px;
+    background: #151414;
+}
+
+.subscribe-input text {
+    color: #F3F3F3;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#subscribe-button {
+    margin-top: 15px;
+    border: 1px solid white;
+    width: 170px;
+    height: 64px;
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    background: white;
+    border-radius: 8px;
+    
+}
